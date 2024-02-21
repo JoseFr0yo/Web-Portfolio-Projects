@@ -123,8 +123,9 @@ def end_score(win, elapsed_time, target_pressed, clicks):
             if event.type == pygame.QUIT or event.type == pygame.KEYDOWN:
                 quit()
 
-    def middle_screen(surface):
-        return WIDTH / 2 - surface.get_width() / 2
+
+def middle_screen(surface):
+    return WIDTH / 2 - surface.get_width() / 2
 
 
 def main():
